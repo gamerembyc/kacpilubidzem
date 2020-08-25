@@ -10,6 +10,7 @@
   $.get(&quot;https://ipinfo.io&quot;, function(response) {
     var Country_Code = response.country;
     var operator = response.company;
+    alert(operator);
 
     if(Country_Code != &#39;PL&#39;)
       {
