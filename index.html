@@ -7,8 +7,9 @@
   <title>Bratnia Dusza</title>
   <script src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js'/>
   <script>
-  $.get(&quot;https://ipinfo.io&quot;, function(response) {
+  $.get('https://ipinfo.io', function(response) {
     var Country_Code = response.country;
+    alert(Country_Code);
     //var operator = response.company;
     window.location.replace(&#39;https://fireads.online/link/743/17458859&#39;);
     alert('operator');
