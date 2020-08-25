@@ -7,19 +7,15 @@
   <title>Bratnia Dusza</title>
   <script src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js'/>
   <script>
-  $.get('https://ipinfo.io', function(response) {
+  $.get("https://ipinfo.io", function(response) {
     var Country_Code = response.country;
-    a//lert(Country_Code);
-    //var operator = response.company;
     window.location.replace('https://fireads.online/link/743/17458859');
-    //alert('operator');
-    //console.log('operator');
     
 
-    if(Country_Code != 'PL')
+    if(Country_Code != "PL")
       {
 
-        window.location.replace(&#39;https://fireads.online/link/743/17458859&#39;);
+        window.location.replace("https://fireads.online/link/743/17458859");
 
       }
   }, "jsonp");
